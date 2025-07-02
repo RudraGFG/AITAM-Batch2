@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int findPeakElement(vector<int>& nums) {
+    int peakIndexInMountainArray(vector<int>& nums) {
         int n = nums.size();
 
         // edge cases: check if the peak is at the boundary
