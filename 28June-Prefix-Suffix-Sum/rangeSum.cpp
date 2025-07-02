@@ -12,7 +12,7 @@ int main() {
     int n = arr.size();
     vector<int> pre(n, 0);
     
-    // copy last element
+    // copy first element
     pre[0] = arr[0];
     
     // fill prefix array
