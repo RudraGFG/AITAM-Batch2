@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-  int n = 7;
+  	int n = 7;
 	int cnt = 0; // to track the no. of set bits in 'n'
 
 	while (n > 0) { // #times loop runs = logn
